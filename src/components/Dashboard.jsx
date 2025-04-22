@@ -2,7 +2,7 @@ import ToolCard from './ToolCard';
 import Icon from './Icon';
 import { useState } from 'react';
 import MergePDF from './MergePDF';
-import SplitPDF from './SplitPDF';
+import SplitPDF from './SplitPdf';
 import CompressPDF from './CompressPdfPopup';
 import ConvertPDF from './ConvertPdfPopup';
 import EditPdfPopup from './EditPdfPopup';
