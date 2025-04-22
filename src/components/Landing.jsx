@@ -1,3 +1,8 @@
+import pdfeasy1 from "../assets/pdfeasy1.png";
+import pdfeasy2 from "../assets/pdfeasy2.png";
+import pdfeasy3 from "../assets/pdfeasy3.png";
+
+
 const Landing = ({ onUnlockClick }) => {
     return (
       <section className="landing">
@@ -11,15 +16,14 @@ const Landing = ({ onUnlockClick }) => {
         </div>
         <div className="slider">
           <div className="slide-track">
-            {/* Replace these with your screenshot images */}
-            <img src="/screenshots/1.png" alt="Screenshot 1" />
-            <img src="/screenshots/2.png" alt="Screenshot 2" />
-            <img src="/screenshots/3.png" alt="Screenshot 3" />
+            <img src={pdfeasy1}/>
+            <img src={pdfeasy2}/>
+            <img src={pdfeasy3}/>
           </div>
         </div>
       </section>
     );
   };
-  
+
   export default Landing;
   

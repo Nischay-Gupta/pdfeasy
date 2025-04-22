@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import Landing from './components/Landing';
 import PasswordPopup from './components/PasswordPopup';
 import Dashboard from './components/Dashboard';
